@@ -59,14 +59,14 @@
 
 
 .owl-prev {
-    background: url(/images/arrowslide.png) no-repeat 11px 12px;
+    background: url(../images/arrowslide.png) no-repeat 11px 12px;
     position: absolute;
     left: 5%;
     bottom: 115px;
 }
 
 .owl-next {
-    background: url(/images/arrowslide2.png) no-repeat 11px 12px;
+    background: url(../images/arrowslide2.png) no-repeat 11px 12px;
     position: absolute;
     right: 5%;
     bottom: 115px;
