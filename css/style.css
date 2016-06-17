@@ -5,31 +5,32 @@
 
  @font-face {
     font-family: Helvetica;
-     src: url(/fonts/helveticaneuecyr-light.otf);
+     src: url(../fonts/helveticaneuecyr-light.otf);
 } 
 
   @font-face {
     font-family: LatoBold;
-     src: url(/fonts/Lato-Bold.ttf);
+     src: url(../fonts/Lato-Bold.ttf);
 } 
 
   @font-face {
     font-family: LatoLight;
-     src: url(/fonts/Lato-Light.ttf);
+     src: url(../fonts/Lato-Light.ttf);
 } 
 
   @font-face {
     font-family: LatoReg;
-     src: url(/fonts/Lato-Regular.ttf);
+     src: url(../fonts/Lato-Regular.ttf);
 } 
 
   @font-face {
     font-family: MyriadProReg;
-     src: url(/fonts/MyriadProRegular.ttf);
+     src: url(../fonts/MyriadProRegular.ttf);
 }
 
+/*test*/
 body {
-    background: url(/images/bg.jpg);
+    background: url(../images/bg.jpg);
     width: 100%;
     height: 100%;
     background-size: 60%;
@@ -83,7 +84,7 @@ nav ul li:first-child {
 nav ul li:nth-child(6) {
     margin-top: -4px;
     padding-left: 22px;
-    background: url(/images/find.png);
+    background: url(../images/find.png);
     width: 20px;
     height: 23px;
     background-repeat: no-repeat;
@@ -92,7 +93,7 @@ nav ul li:nth-child(6) {
 }
 
 nav ul li:nth-child(6):hover {
-   background: url(/images/findhov.png);
+   background: url(../images/findhov.png);
     background-repeat: no-repeat;
     background-position: 21px 2px;
 }
@@ -100,7 +101,7 @@ nav ul li:nth-child(6):hover {
 nav ul li:last-child {
     margin-top: -4px;
     padding-left: 22px;
-    background: url(/images/user.png);
+    background: url(../images/user.png);
     width: 20px;
     height: 23px;
     background-repeat: no-repeat;
@@ -220,7 +221,7 @@ nav ul li a:hover {
 }
 
 .foodsubImg {
-    background: url(/images/div1.jpg);
+    background: url(../images/div1.jpg);
     background-repeat: no-repeat;
     width: 100%;
     height: 243px;
@@ -233,7 +234,7 @@ nav ul li a:hover {
 }
 
 .foodsubImg2 {
-    background: url(/images/div2.jpg);
+    background: url(../images/div2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -247,7 +248,7 @@ nav ul li a:hover {
 
 .foodsubImg3 {
   
-    background: url(/images/div3.jpg);
+    background: url(../images/div3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -261,7 +262,7 @@ nav ul li a:hover {
 
 .foodsubImg4 {
  
-    background: url(/images/div4.jpg);
+    background: url(../images/div4.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -434,7 +435,7 @@ nav ul li a:hover {
 
 
 .sliderBot {
-    background: url(/images/slidebot1.jpg);
+    background: url(../images/slidebot1.jpg);
     background-size: 100% 120%;
     background-repeat: no-repeat;
     margin-top: 25px;
@@ -498,7 +499,7 @@ nav ul li a:hover {
 
 
 .sliderBot .slideimg1 {
-    background: url(/images/slidebot1.jpg);
+    background: url(../images/slidebot1.jpg);
     background-repeat: no-repeat;
     width: 100%;
     height: 508px;
@@ -506,7 +507,7 @@ nav ul li a:hover {
 }
 
 .sliderBot .slideimg2 {
-    background: url(/images/slidebot1.jpg);
+    background: url(../images/slidebot1.jpg);
     background-repeat: no-repeat;
     width: 100%;
     height: 508px;
@@ -514,7 +515,7 @@ nav ul li a:hover {
 }
 
 .sliderBot .slideimg3 {
-    background: url(/images/slidebot1.jpg);
+    background: url(../images/slidebot1.jpg);
     background-repeat: no-repeat;
     width: 100%;
     height: 508px;
@@ -752,36 +753,36 @@ footer ul {
 
 .social ul li:first-child {
         height: 13px;
-        background: url(/images/fb.png);
+        background: url(../images/fb.png);
         width: 7px;
         background-repeat: no-repeat;
     margin-left: 0;
 }
 
 .social ul li:first-child:hover {
-     background: url(/images/fbhov.png);
+     background: url(../images/fbhov.png);
 }
 
 .social ul li:nth-child(2) {
         height: 13px;
-        background: url(/images/tw.png);
+        background: url(../images/tw.png);
         width: 16px;
         background-repeat: no-repeat;
 }
 
 .social ul li:nth-child(2):hover {
-     background: url(/images/twhov.png);
+     background: url(../images/twhov.png);
 }
 
 .social ul li:last-child {
         height: 13px;
-        background: url(/images/inst.png);
+        background: url(../images/inst.png);
         width: 14px;
         background-repeat: no-repeat;
 }
 
 .social ul li:last-child:hover {
-     background: url(/images/insthov.png);
+     background: url(../images/insthov.png);
 }
 
 
@@ -839,7 +840,7 @@ hr {
 
 .pay_servc  ul li:first-child {
         height: 15px;
-        background: url(/images/paypal.png);
+        background: url(../images/paypal.png);
         width: 54px;
         background-repeat: no-repeat;
         margin-left: 0;
@@ -847,12 +848,12 @@ hr {
 }
 
 .pay_servc  ul li:first-child:hover {
-     background: url(/images/paypalhov.png);
+     background: url(../images/paypalhov.png);
 }
 
 .pay_servc  ul li:nth-child(2) {
         height: 14px;
-        background: url(/images/visa.png);
+        background: url(../images/visa.png);
         width: 46px;
         background-repeat: no-repeat;
         margin-top: -1px;
@@ -860,12 +861,12 @@ hr {
 }
 
 .pay_servc  ul li:nth-child(2):hover {
-     background: url(/images/visahov.png);
+     background: url(../images/visahov.png);
 }
 
 .pay_servc  ul li:last-child {
         height: 24px;
-        background: url(/images/mastercard.png);
+        background: url(../images/mastercard.png);
         width: 40px;
         background-repeat: no-repeat;
         margin-top: -5px;
@@ -873,7 +874,7 @@ hr {
 }
 
 .pay_servc  ul li:last-child:hover {
-     background: url(/images/masterhov.png);
+     background: url(../images/masterhov.png);
 }
 
 .foot_logo {
